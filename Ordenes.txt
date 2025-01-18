@@ -1,0 +1,26 @@
+Proyecto # 10 Red Hidráulica
+
+Realizar una aplicación para mantener actualizado el control de la Red Hidráulica de una instalación. 
+
+Para ello se controla la cantidad de depósitos existentes para almacenar el agua. 
+
+Los depósitos utilizados son los tanques y cisternas y de cada uno de estos su capacidad, estado y el tipo de abasto de agua. 
+
+De los tanques se sabe además de que material es (plástico, metal, fibrocemento). 
+
+Las cisternas se clasifican en simples y compuestas, de las simples se conoce la forma que tiene (cúbica, cilíndrica…), de las compuestas se conoce cantidad de compartimentos dentro de ella. 
+
+Se controlará también la cantidad de bombas de agua y de turbinas, de las bombas de agua se sabe el estado, régimen y tiempo de bombeo. 
+
+De las turbinas el estado, régimen, fuerza. La aplicación debe permitir:
+
+1.	Mostrar la información de los tanques y cisternas, que se encuentran en mal o regular estado y que el tipo de abasto de agua sea el especificado por el usuario. Esta información debe quedar almacenada en un fichero texto llamado verificar.dat 
+2.	Mostrar la capacidad de los tanques ordenados por material (1ro los de fibrocemento, 2do los de metal, 3ro los de plástico) y la capacidad de las cisternas ordenadas por su clasificación (1ro las simples y después las compuestas).
+3.	Conocer de las bombas y turbinas la(s) que tiene el mejor régimen de bombeo.
+4.	Conocer el tiempo promedio de bombeo de las bombas que están en buen estado. 
+5.	Estado de la(s) turbina de mayor fuerza.
+6.	Determinar la capacidad total de las cisternas, que tengan la cantidad de compartimentos y la forma especificada por el usuario. Esta información debe quedar almacenada en un fichero texto llamado cisternas.dat 
+
+
+Nota: Para la ejecución del ejercicio se deberá utilizar el diagrama UML realizado y lista genérica además de presentar una interfaz visual.
+
